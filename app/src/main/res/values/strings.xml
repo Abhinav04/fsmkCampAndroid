@@ -38,5 +38,7 @@
     <string name="aboutFSIF6">The nonfree program controls the users, and the developer controls the program; this makes the program an instrument of unjust power.</string>
     <string name="title_activity_volunteers">Volunteers</string>
     <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_contact_us">ContactUs</string>
 
 </resources>

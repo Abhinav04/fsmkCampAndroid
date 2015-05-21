@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
             setContentView(R.layout.activity_main);
             c.moveToFirst();
             ListView lv=(ListView) findViewById(R.id.list_notices);
+            lv.setDividerHeight(5);
 
             int to[]={R.id.list_user_full_name,R.id.list_user_name};
             String []from={"senderName","sentBy"};
@@ -89,12 +90,8 @@ public class MainActivity extends Activity {
             Intent intent=new Intent(getApplicationContext(),Unsubscribe.class);
             startActivity(intent);
         }
-        if(id==R.id.volunteers){
-            Intent intent=new Intent(getApplicationContext(),Volunteers.class);
-            startActivity(intent);
-        }
-        if(id==R.id.schedule){
-            Intent intent=new Intent(getApplicationContext(),Schedule.class);
+        if(id==R.id.home){
+            Intent intent=new Intent(getApplicationContext(),Home.class);
             startActivity(intent);
         }
         if(id==R.id.about){

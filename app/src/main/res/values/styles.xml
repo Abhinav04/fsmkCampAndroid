@@ -9,7 +9,7 @@
     <!-- ActionBar styles -->
     <style name="MyActionBar"
         parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
-        <item name="android:background">#FF2D5873</item>
+        <item name="android:background">#FFEC1322</item>
         <item name="android:actionMenuTextColor">#FFF</item>
         <item name="android:textColor">#000</item>
     </style>

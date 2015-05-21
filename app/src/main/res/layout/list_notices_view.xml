@@ -1,15 +1,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFFFF"
+    android:layout_marginTop="20dp"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
+        android:textColor="#FFEC1322"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="username"
 
@@ -23,10 +29,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="full name"
-        android:textColor="#FF9A9A9A"
+        android:textColor="#FFEC1322"
         android:id="@+id/list_user_full_name"
         android:layout_below="@+id/list_user_name"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true" />
         android:layout_alignParentLeft="true" />
 </RelativeLayout>

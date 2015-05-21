@@ -99,6 +99,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fossdevs.fsmkcamp.MainActivity" />
         </activity>
+        <activity
+            android:name="com.fossdevs.fsmkcamp.Home"
+            android:label="@string/title_activity_home"
+            android:parentActivityName="com.fossdevs.fsmkcamp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fossdevs.fsmkcamp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.fossdevs.fsmkcamp.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName="com.fossdevs.fsmkcamp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fossdevs.fsmkcamp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
